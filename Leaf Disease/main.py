@@ -83,7 +83,7 @@ class LeafDiseaseDetector:
         ...     print("Healthy leaf detected")
     """
 
-    MODEL_NAME = "meta-llama/llama-4-scout-17b-16e-instruct"
+    MODEL_NAME = "qwen/qwen3.8-27b"
     DEFAULT_TEMPERATURE = 0.3
     DEFAULT_MAX_TOKENS = 1024
 

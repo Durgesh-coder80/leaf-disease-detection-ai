@@ -80,7 +80,7 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-api_url = "http://leaf-diseases-detect.vercel.app"
+api_url = "http://127.0.0.1:8000"
 
 col1, col2 = st.columns([1, 2])
 with col1:

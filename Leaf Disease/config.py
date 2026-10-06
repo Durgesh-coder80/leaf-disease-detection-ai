@@ -56,7 +56,7 @@ class AppConfig:
 
     # API Configuration
     groq_api_key: str  # Required API key for Groq AI services
-    model_name: str = "meta-llama/llama-4-scout-17b-16e-instruct"  # AI model identifier
+    model_name: str = "qwen/qwen3.8-27b"  # AI model identifier
     # Controls randomness in model responses (0.0-2.0)
     model_temperature: float = 0.3
     max_completion_tokens: int = 1024  # Maximum tokens in model responses
