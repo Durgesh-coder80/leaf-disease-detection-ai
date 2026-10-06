@@ -80,7 +80,7 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-api_url = "http://127.0.0.1:8000"
+api_url = "https://YOUR-BACKEND.onrender.com"
 
 col1, col2 = st.columns([1, 2])
 with col1:
